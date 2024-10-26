@@ -19,3 +19,22 @@ Projek ini memiliki dua kelas utama:
 
 
 
+## Cara Kerja Proyek
+
+1. **Memasukkan Data Siswa**:
+    - Aplikasi meminta pengguna untuk memasukkan jumlah siswa yang ingin didaftarkan.
+    - Untuk setiap siswa, pengguna akan diminta memasukkan:
+        - **Nama**: Nama lengkap siswa.
+        - **Umur**: Usia siswa dalam angka positif. Jika input bukan angka atau angka negatif, 
+          aplikasi akan terus meminta input ulang.
+        - **Kelas**: Kelas atau tingkat siswa.
+      
+
+2. **Validasi Data**:
+    - Aplikasi memvalidasi input usia agar sesuai (harus berupa angka positif).
+    - Jika input usia salah, pengguna akan diminta memasukkan ulang data usia hingga valid.
+   
+
+3. **Menampilkan Data Siswa**:
+    - Setelah semua data siswa dimasukkan, aplikasi menampilkan daftar lengkap siswa dengan 
+    informasi yang dimasukkan tadi, termasuk nama, umur, dan kelas.
