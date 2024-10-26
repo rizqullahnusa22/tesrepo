@@ -27,7 +27,6 @@ public class Main {
      * @param input
      * @param daftarSiswa
      */
-
     private static void inputdatasiswa(int jumlahSiswa, Scanner input, ArrayList<Siswa> daftarSiswa) {
         for (int i = 0; i < jumlahSiswa; i++) {
             System.out.println("Masukkan nama siswa:");
