@@ -5,7 +5,7 @@
 Aplikasi pendaftaran siswa sederhana berbasis konsol ini memungkinkan pengguna untuk memasukkan data siswa,
 termasuk nama, umur, dan kelas. Data setiap siswa akan disimpan dalam daftar dan dapat ditampilkan kembali. 
 
-## Struktur Projek 
+## Struktur Projek
 
 Projek ini memiliki dua kelas utama:
 - **Main**: Kelas utama yang menangani input pengguna dan mengelola daftar siswa.
@@ -30,11 +30,11 @@ Projek ini memiliki dua kelas utama:
         - **Kelas**: Kelas atau tingkat siswa.
       
 
-1. **Validasi Data**:
+2. **Validasi Data**:
     - Aplikasi memvalidasi input usia agar sesuai (harus berupa angka positif).
     - Jika input usia salah, pengguna akan diminta memasukkan ulang data usia hingga valid.
    
 
-1. **Menampilkan Data Siswa**:
+3. **Menampilkan Data Siswa**:
     - Setelah semua data siswa dimasukkan, aplikasi menampilkan daftar lengkap siswa dengan 
     informasi yang dimasukkan tadi, termasuk nama, umur, dan kelas.
